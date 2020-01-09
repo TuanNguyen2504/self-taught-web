@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto','lato', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    color: white;
+}
+
+/* Header ================================================ */
+
+header{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    grid-template-rows: 2fr 8fr;
+    background-image: linear-gradient(45deg, rgba(38,80,119, 0.7) 55%, rgba(100, 134, 165, 0.5)), url('../img/background4.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 450px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.main-nav{
+    justify-self: end;
+    margin: 70px 100px 0 0;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 145%;
+    font-weight: 550;
+}
+
+.main-nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main-nav li a:hover,
+.main-nav li a:hover{
+    border-bottom: 4px solid #fff;
+    transition: all .8s;
+}
+
+.heading-main-box{
+    grid-column: 1/3;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+.heading-main-text{
+    font-size: 400%;
+    font-weight: 500;  
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 150%;  
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.heading-main-box .btn{
+    margin-right: 20px;
+}
+
+.heading-main-box .btn:hover{
+    background-color: rgb(170, 86, 29);
+}
+/* Reusable ============================================ */
+
+.btn{
+    width: 220px;
+    height: 65px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(250, 126, 43);
+    color: #fff;
+    outline: none;
+    font-size: 100%;
+    text-align: center;
+    transition: all .5s;
+}
