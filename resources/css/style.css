@@ -29,11 +29,12 @@ header{
     width: 450px;
     margin-top: -50px;
     margin-left: 100px;
+    outline: none;
 }
 
 .main-nav{
     justify-self: end;
-    margin: 70px 100px 0 0;
+    margin: 90px 100px 0 0;
 }
 
 .main-nav a{
@@ -108,7 +109,7 @@ header{
     font-size: 310%;
     font-weight: 550;
     letter-spacing: 2px;
-    color: rgb(231, 127, 58);
+    color: rgb(231, 124, 52);
     padding: 50px;
     text-align: center;
 }
@@ -116,7 +117,7 @@ header{
 .section-title::after{
     content: " ";
     display: block;
-    background-color: rgba(238, 197, 170, 0.918);
+    background-color: rgba(235, 193, 165, 0.7);
     margin: 0 auto;
     width: 200px;
     height: 5px;
@@ -244,6 +245,47 @@ header{
     width: 50%;
     height: 15%;
 }
+
+/* testimaonials =================================== */
+.testimaonials-section{
+    background-image: linear-gradient(45deg, rgba(38,80,119, 0.7) 55%, rgba(100, 134, 165, 0.5)), url('../img/background2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.testimaonials-section blockquote::before{
+    content: '\201C';
+    font-size: 300%;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+
+.testimaonials-section blockquote{
+    position: relative;
+    color: #fff;
+    font-size: 130%;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.testimaonials-section cite{
+    font-size: 120%;
+    color: #3382d1;
+    font-weight: 600;
+}
+
+.person-picture{
+    vertical-align: middle;
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid #50a3f6;
+    margin-right: 15px;
+}
+
 
 
 
