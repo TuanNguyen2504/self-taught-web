@@ -348,8 +348,8 @@ header{
 .feedback{
     grid-column: 2/4;
     justify-self: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 70px;
     background-color: rgba(7, 8, 63, 0.5);
     width: 50%;
 }
@@ -438,4 +438,16 @@ header{
     background-color: rgba(24, 24, 24, 0.8);
     color: #fff;
     transition: all .8s;
+}
+
+/* Footer ====================================== */
+footer{
+    background-color: #666;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    font-size: 70%;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
