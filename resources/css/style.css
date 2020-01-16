@@ -328,5 +328,114 @@ header{
     transition: all .8s;
 }
 
+/* Contact section ================================ */
+.contact-section{
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: linear-gradient(45deg, rgba(38,80,119, 0.7) 55%, rgba(100, 134, 165, 0.5)), url('../img/background5.jpeg');
+    background-size: cover;
+    background-position: center;
+}
 
+.infomation{
+    grid-column: 1/2;
+    justify-self: center;
+    margin: 200px 0 0px 50px;
 
+}
+
+.feedback{
+    grid-column: 2/4;
+    justify-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(7, 8, 63, 0.5);
+    width: 50%;
+}
+
+.infomation ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.contact-info{
+    font-size: 100%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact-info li i{
+    color: #ae94f5;
+    margin-right: 20px;
+}
+
+.contact-info li i:hover,
+.contact-info li i:active{
+    transform: scale(1.4);
+    color: #9679e7;
+    transition: all .8s;
+}
+
+.social-icon{
+    display: flex;
+    margin-top: 50px;
+}
+
+.social-icon li{
+    font-size: 270%;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.social-icon li:hover,
+.social-icon li:active{
+    transform: scale(1.3);
+    color: rgb(255, 145, 0);
+    transition: all .8s;
+}
+
+.feedback .grid{
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+}
+
+.feedback label{
+    color: #fff;
+    padding-left: 15px;
+    font-size: 125%;
+    grid-column: 1/2;
+}
+
+.feedback input[type="submit"]{
+    margin: 30px 0;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+
+.feedback input[type="text"],
+.feedback textarea{
+    grid-column: 2/4;
+    width: 80%;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(46, 46, 46, 0.7);
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.feedback textarea{
+    resize: none;
+    height: 120px;
+}
+
+.feedback input[type="text"]:focus,
+.feedback textarea:focus{
+    background-color: rgba(24, 24, 24, 0.8);
+    color: #fff;
+    transition: all .8s;
+}
