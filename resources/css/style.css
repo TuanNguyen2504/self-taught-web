@@ -41,7 +41,7 @@ header{
     text-decoration: none;
     color: white;
     margin-right: 50px;
-    font-size: 145%;
+    font-size: 130%;
     font-weight: 550;
 }
 
@@ -342,7 +342,6 @@ header{
     grid-column: 1/2;
     justify-self: center;
     margin: 200px 0 0px 50px;
-
 }
 
 .feedback{
@@ -426,6 +425,7 @@ header{
     font-size: 14px;
     padding-left: 10px;
     padding-top: 5px;
+    color: #fff;
 }
 
 .feedback textarea{
@@ -436,7 +436,6 @@ header{
 .feedback input[type="text"]:focus,
 .feedback textarea:focus{
     background-color: rgba(24, 24, 24, 0.8);
-    color: #fff;
     transition: all .8s;
 }
 
