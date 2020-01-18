@@ -1,7 +1,28 @@
 $(document).ready(
     function () 
     {
-        //mobile navigation
+        // Way points
+        $('.about-section').waypoint(
+            function(dicrection){
+                if(dicrection == 'down'){
+                    $('nav').addClass('sticky');
+                }else{
+                    $('nav').removeClass('sticky');
+                }
+            }, {
+                offset: '500px'
+            }
+        )
+        
+        //scroll
+        $('a').click(function (event) {
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 1500);
+            event.preventDefault();
+        });
+
+        //mobile nav
         $('.mobile-nav-icon').click(
                 function()
                 {

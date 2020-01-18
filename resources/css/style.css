@@ -56,7 +56,7 @@ header{
 
 .heading-main-box{
     grid-column: 1/3;
-    margin-top: -20px;
+    margin-top: 60px;
     margin-left: 200px;
 }
 
@@ -74,6 +74,24 @@ header{
     margin-right: 20px;
 }
 
+.sticky{
+    background-color: rgba(0, 44, 88, 0.9);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.sticky .logo{
+    width: 300px;
+    margin-top: -50px;
+    margin-bottom: -60px;
+}
+
+.sticky .main-nav{
+    margin-top: 40px;
+}
+
 .mobile-nav-icon{
     font-size: 220%;
     color: #a7caee;
@@ -82,7 +100,19 @@ header{
     right: 50px;
     display: none;
 }
+
+.sticky .mobile-nav-icon{
+    top: 30px;
+}
+
 /* Reusable ============================================ */
+
+.clearfix::after
+{
+    content: " ";
+    display: table;
+    clear: both;
+}
 
 .btn{
     width: 220px;

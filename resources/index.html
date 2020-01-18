@@ -5,7 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Landing Page</title>
+    <title>Self Taught</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7534282567.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -13,17 +22,18 @@
 </head>
 
 <body>
-    <header id="home">
-        <nav class="sticky">
-            <a href="#home">
+    <header id="header">
+        <nav>
+            <a href="#header">
                 <img class="logo" src="./img/logo.png" alt="Logo">
             </a>
             <ul class="main-nav">
-                <li><a href="#">How clients think</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#testimaonials-section">How clients think</a></li>
+                <li><a href="#abouts-section">About</a></li>
+                <li><a href="#products-section">Products</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
+            <i class="fas fa-bars mobile-nav-icon"></i>
         </nav>
         <div class="heading-main-box">
             <h1 class="heading-main-text">We will study<br>
@@ -34,10 +44,10 @@
             <button class="btn">Tell me more </button>
             <button class="btn">Join us</button>
         </div>
-        <i class="fas fa-bars mobile-nav-icon"></i>
+
     </header>
 
-    <div class="about-section">
+    <div class="about-section" id="abouts-section">
         <h2 class="section-title">about us</h2>
         <p class="about-text">
             We are people that are studying English by ourselves,
@@ -64,7 +74,7 @@
         </div>
     </div>
 
-    <div class="products-section">
+    <div class="products-section" id="products-section">
         <h2 class="section-title">products</h2>
         <div class="grid">
             <div class="product-box" style="grid-column: 1/5;">
@@ -104,7 +114,7 @@
         </div>
     </div>
 
-    <div class="testimaonials-section">
+    <div class="testimaonials-section" id="testimaonials-section">
         <h2 class="section-title">testimaonials</h2>
         <div class="grid">
             <blockquote style="grid-column: 1/5;">
@@ -137,7 +147,7 @@
         </div>
     </div>
 
-    <div class="sponsors-section">
+    <div class="sponsors-section" id="sponsors-section">
         <h2 class="section-title">sponsors</h2>
         <div class="grid">
             <div class="sponsor-logo" style="grid-column: 1/5;">
@@ -167,7 +177,7 @@
         </div>
     </div>
 
-    <div class="contact-section">
+    <div class="contact-section" id="contact-section">
         <div class="infomation">
             <ul class="contact-info">
                 <li><i class="fas fa-map-marker-alt"></i>Address: 30A, Thien Ho Duong, DT</li>
@@ -208,7 +218,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="../vendors/js/jquery.waypoints.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

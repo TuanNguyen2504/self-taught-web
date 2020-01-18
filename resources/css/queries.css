@@ -111,6 +111,7 @@
 
     .heading-main-box{
         margin-left: 100px;
+        margin-top: 150px;
     }
 
     .heading-main-text{
@@ -121,6 +122,7 @@
     .heading-main-box .btn{
         width: 150px;
         font-size: 14px;
+        height: 50px;
     }
 
     /* about section ================ */
@@ -211,8 +213,9 @@
 
     .main-nav{
         display: none;
+        margin-top: -10px;
     }
-    
+
     .logo{
         width: 300px;
         margin-top: 20px;
@@ -226,6 +229,7 @@
 
     .heading-main-box{
         margin-left: 50px;
+        margin-top: 40px;
     }
 
     .heading-main-box .btn{
@@ -376,6 +380,10 @@
         width: 120px;
     }
 
+    .main-nav{
+        margin-top: -10px;
+    }
+
     header{
         height: 70vh;
     }
@@ -391,6 +399,7 @@
 
     .heading-main-box{
         margin-left: 25px;
+        margin-top: 70px;
     }
 
     .heading-main-box .btn{
@@ -402,7 +411,28 @@
     .mobile-nav-icon{
         font-size: 200%;
         top: 85px;
+        right: 20px;
     }
+    
+    .main-nav a{
+        font-size: 60%;
+       
+    }
+
+    .sticky{
+        padding-bottom: 10px;
+    }
+
+    .sticky .logo{
+        width: 200px;
+        margin-top: -20px;
+        margin-bottom: -40px;
+    }
+
+    .sticky .mobile-nav-icon{
+        font-size: 150%;
+    }
+
     /* about section ====== */
     .picture-title{
         font-size: 16px;
