@@ -205,7 +205,7 @@
 }
 
 /* 480 - 768px */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     header{
         height: 70vh;
     }
@@ -311,5 +311,191 @@
         left: 25%;
         width: 50%;
         height: 15%;
+    }
+    /* testimaonials section  ====== */
+    .testimaonials-section .section-title{
+        padding-left: 20px;
+    }
+
+    .testimaonials-section .grid{
+        grid-template-columns: 1fr;
+        grid-row-gap: 0;
+    }
+
+    .testimaonials-section blockquote{
+        grid-column: 1/1 !important;
+    }
+    /* sponsor section */
+    .sponsors-section .grid{
+        grid-column-gap: 0px;
+        padding-right: 20px;
+    }
+
+    .sponsor-logo h4{
+        left: 20px;
+        font-size: 65%;
+    }
+    /* contact section ===== */
+    .contact-section{
+        grid-template-columns: 1fr;
+        height: 110vh;
+    }
+
+    .contact-section > *{
+        grid-column: 1/1;
+    }
+
+    .contact-info{
+        font-size: 100%;
+        font-weight: 500;
+    }
+
+    .infomation{
+        margin: 100px 0 0px 50px;
+    }
+
+    .social-icon li{
+        font-size: 270%;
+    }
+
+    .feedback{
+        margin-top: 0px;
+    }
+    
+}
+
+/* < 480px */
+@media only screen and (max-width: 479px){
+    .section-title{
+        font-size: 130%;
+    }
+
+    .section-title::after{
+        width: 120px;
+    }
+
+    header{
+        height: 70vh;
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+    .heading-main-text{
+        font-size: 100%;
+        margin: 30px 0;
+    }
+
+    .heading-main-box{
+        margin-left: 25px;
+    }
+
+    .heading-main-box .btn{
+        width: 90px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    /* about section ====== */
+    .picture-title{
+        font-size: 16px;
+        position: absolute;
+        left: 20%;
+    }
+
+    .about-pictures{
+        position: relative;
+    }
+
+    .about-text{
+        font-size: 20px;
+    }
+    /* product-section ===== */
+    .products-section .section-title{
+        font-size: 170%;
+    }
+
+    .product-box h2{
+        font-size: 90%;
+    }
+    
+    .product-price{
+        left: 23%;
+        font-size: 200%;
+    }
+    
+    .product-price span{
+         font-size: 60%;
+    }
+    
+    .product-box ul{
+        left: 15%;
+    }
+    
+    .fa-check{
+        font-size: 80%;
+        padding-right: 10px;
+    }
+    
+    .product-box ul li{
+        font-size: 100%;;
+        margin-bottom: 30px;
+    }
+    
+    .product-box .btn{
+
+        height: 12%;
+    }
+    /* testimaonials section  ====== */
+    .testimaonials-section .section-title::after{
+        margin-left: 50px;
+    }
+
+    .testimaonials-section blockquote cite{
+        color: #226db8;
+    }
+    /* sponsor section */
+    .sponsors-section .grid{
+        padding-right: 40px;
+    }
+
+    .sponsor-logo h4{
+        font-size: 60%;
+    }
+    /* contact section ===== */
+    .contact-section{
+        height: 800px;
+    }
+
+    .contact-info{
+        font-size: 80%;
+        font-weight: 500;
+    }
+
+    .infomation{
+        margin: 70px 0 0px 20px;
+    }
+
+    .social-icon{
+        position: relative;
+        top: -20px;
+    }
+
+    .social-icon li{
+        font-size: 200%;
+    }
+
+    .feedback{
+        position: relative;
+        left: -10px;
+    }
+    
+    .feedback input[type="submit"]{
+        height: 50px;
+    }
+
+    footer{
+        font-size: 12px;
     }
 }
