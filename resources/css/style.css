@@ -14,9 +14,6 @@ html{
 /* Header ================================================ */
 
 header{
-    display: grid;
-    grid-template-columns: 4fr 6fr;
-    grid-template-rows: 2fr 8fr;
     background-image: linear-gradient(45deg, rgba(38,80,119, 0.7) 55%, rgba(100, 134, 165, 0.5)), url('../img/background4.jpeg');
     height: 100vh;
     color: #fff;
@@ -33,7 +30,7 @@ header{
 }
 
 .main-nav{
-    justify-self: end;
+    float: right;
     margin: 90px 100px 0 0;
 }
 
@@ -77,6 +74,14 @@ header{
     margin-right: 20px;
 }
 
+.mobile-nav-icon{
+    font-size: 220%;
+    color: #a7caee;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: none;
+}
 /* Reusable ============================================ */
 
 .btn{

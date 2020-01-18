@@ -21,7 +21,6 @@
         font-size: 300%;
         margin-top: 120px;
     }
-
     /* about section ================ */
     .about-section{
         margin: 0 50px;
@@ -211,9 +210,9 @@
     }
 
     .main-nav{
-        opacity: 0;
+        display: none;
     }
-
+    
     .logo{
         width: 300px;
         margin-top: 20px;
@@ -236,6 +235,9 @@
         border-radius: 15px;
     }
 
+    .mobile-nav-icon{
+        display: block;
+    }
     /* about section ====== */
     .about-pictures{
         grid-column: 1/1 !important;
@@ -397,6 +399,10 @@
         font-size: 12px;
     }
 
+    .mobile-nav-icon{
+        font-size: 200%;
+        top: 85px;
+    }
     /* about section ====== */
     .picture-title{
         font-size: 16px;

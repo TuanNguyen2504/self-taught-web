@@ -14,15 +14,17 @@
 
 <body>
     <header id="home">
-        <a href="#home">
-            <img class="logo" src="./img/logo.png" alt="Logo">
-        </a>
-        <ul class="main-nav">
-            <li><a href="#">How clients think</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <nav class="sticky">
+            <a href="#home">
+                <img class="logo" src="./img/logo.png" alt="Logo">
+            </a>
+            <ul class="main-nav">
+                <li><a href="#">How clients think</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="heading-main-box">
             <h1 class="heading-main-text">We will study<br>
                 English together
@@ -32,6 +34,7 @@
             <button class="btn">Tell me more </button>
             <button class="btn">Join us</button>
         </div>
+        <i class="fas fa-bars mobile-nav-icon"></i>
     </header>
 
     <div class="about-section">
@@ -203,6 +206,11 @@
         Copyright © 2018 by SELFTAUGHT TEAM
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <script src="../vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
